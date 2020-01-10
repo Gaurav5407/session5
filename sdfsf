@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link href="Style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--<div class="container-fluid" id="Banner">
+        <div class="navigation">
+            <nav class="navbar navbar-expand-sm">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <img src="Images/logo_1.png" />
+                    </li>
+                    <li class="nav-item">
+                        <div><a class="nav-link text-white" href="#">How It Works</a></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact us</a>
+                    </li>
+                    <li class="nav-item banner-login">
+                        <a class="nav-link text-white border border-white">Login</a>
+                    </li>
+
+                </ul>
+                <button class="banner-photo">
+                    <img src="Images/photos-icon.png" />View Photos
+                </button>
+            </nav>
+
+        </div>
+    </div>-->
+    <div class="container-fluid Banner">
+        <header>
+            <nav class="navbar navbar-expand-sm ">
+                 <img src="Images/logo_1.png" class="logo" />
+                <ul class="nav navbar-nav mr-auto">
+                   
+                    <li class="navbar-left pl-4"><a class="text-capitalize nav-link text-center text-white" href="#">how it works</a></li>
+                    <li class="navbar-left pl-4"><a class="text-capitalize nav-link text-center text-white" href="#">contact us</a></li>
+                </ul>
+                <button class="btn-login">Login</button>
+            </nav>
+            <hr />
+            <h1 class="text-white">Ghana Medical Volunteers</h1>
+            <button class="bt-banner-photo m-4 "><img src="Images/photos-icon.png" />View Photo</button>
+        </header>
+
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center main">
+            <div class="col-md-8">
+                <div class="d-flex justify-content-between">
+                    <div><h2>Ghana Medical Volunteer</h2></div>
+                    <div class="text-danger"><h3><img src="Images/map.png" class="mapIcon" />Khumasi, Ghana</h3></div>
+                    
+                </div>
+
+
+                <div>
+                    <img class="play-logo border border-secondary" src="Images/play-logo.png" /> <div class="d-inline-block">Plan My Gap Year</div>
+                </div>
+
+                <div class="my-4">
+                    <div class="d-inline-block">
+                        <img src="Images/icon1.png" class="mapIcon" />From $714 from two weeks
+                    </div>
+                    <div class="d-inline-block ml-4">
+                        <img src="Images/icon2.png" class="mapIcon" />2-24 weeks
+                    </div>
+                    <div class="d-inline-block ml-4">
+                        <img src="Images/icon4.png" class="mapIcon" />18 and older
+                    </div>
+                </div>
+
+              
+                <div class="container-fluid btn-container stiky-top">
+                    <div class="row">
+                        <div class="col mx-1 div-container"><button class="btn btn-block forhover">DESCRIPTION</button></div>
+                        <div class="col mx-1 div-container"><button class="btn btn-block forhover">LOCATION</button></div>
+                        <div class="col mx-1 div-container"><button class="btn btn-block forhover">COST</button></div>
+                        <div class="col mx-1 div-container"><button class="btn btn-block forhover">DATES</button></div>
+                        <div class="col mx-1 div-container"><button class="btn btn-block forhover">ORGANIZATION</button></div>
+                    </div>
+                </div>
+                <div class="description">
+                    <h2>DESCRIPTION</h2>
+                    <div>
+                        <h4>OVERVIEW</h4>
+                        <p>
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                        </p>
+                        <p>
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                        </p>
+                        <p>
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Feild Condition</h4>
+                        <p>
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                        </p>
+                        <p>
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                        </p>
+                        <p>
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Your Impact</h4>
+                        <p>
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                        </p>
+                        <p>
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                        </p>
+                        <p>
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        </p>
+                    </div>
+                    <video controls="controls" class="video">
+                        <source src="Video/video.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <hr />
+                <div class="Location">
+                    <h2>Location</h2>
+                    <h4><img src="Images/map.png" class="mapIcon" />Khumasi, Ghana</h4>
+                    <div style="width: 100%"><iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/coordinates.html">find my location</a></iframe></div>
+                    <br />
+                    <hr />
+                </div>
+                <div class="Cost">
+                    <h2>Cost</h2>
+                    <p>The cost listed below includes a registration fee of $193.00 . The remainder or program fee is due 60 day proir to the start of your program</p>
+                       
+                    <div class="cost-container d-flex" >
+                        <div class="cost-column1 p-2">
+                            <img src="images/icon2.png" class="mapIcon d-inline-block" />
+                            <h4 class="d-inline-block pr-3">Duration</h4>
+                            <select class="d-inline-block pr-5">
+                                <option value="2">2 Weeks</option>
+                                <option value="3">3 Weeks</option>
+                                <option value="4">4 Weeks</option>
+                            </select>
+
+                        </div>
+                        <div class="cost-column2 pull-right p-2 pl-3">
+                            <img src="images/icon1.png" class="mapIcon d-inline-block" />
+                            <h4 class="d-inline-block">
+                                Cost:
+                            </h4>
+                            <h4 class="d-inline-block pl-5">
+                                $714
+                            </h4>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="row pt-5">
+                    <div class="col-md-6 included text-center p-0">
+                        <h3 class="text-white">What's Included</h3>
+
+                        <img src="images/new-tick.png" class="mapIcon" />aasdfasdasdadadsadasdadadsd <br />
+                        <img src="images/new-tick.png" class="mapIcon" />aasdfasdasdadadsadasdadadsd <br />
+                        <img src="images/new-tick.png" class="mapIcon" />aasdfasdasdadadsadasdadadsd <br />
+                        <img src="images/new-tick.png" class="mapIcon" />aasdfasdasdadadsadasdadadsd <br />
+                        <img src="images/new-tick.png" class="mapIcon" />aasdfasdasdadadsadasdadadsd <br />
+                        <img src="images/new-tick.png" class="mapIcon" />aasdfasdasdadadsadasdadadsd <br />
+
+
+
+
+                    </div>
+
+
+                    <div class=" col-md-6 not-included text-center p-0">
+                        <h3 class="text-white">What's not included</h3>
+
+                        <img src="images/non-check.png" class="mapIcon" />aasdfasdasdadadsadasdadadsd <br />
+                        <img src="images/non-check.png" class="mapIcon" />aasdfasdasdadadsadasdadadsd<br />
+                        <img src="images/non-check.png" class="mapIcon" />aasdfasdasdadadsadasdadadsd<br />
+                        <img src="images/non-check.png" class="mapIcon" />aasdfasdasdadadsadasdadadsd<br />
+                        <img src="images/non-check.png" class="mapIcon" />aasdfasdasdadadsadasdadadsd<br />
+                        <img src="images/non-check.png" class="mapIcon" />aasdfasdasdadadsadasdadadsd<br />
+                    </div>
+                </div>
+
+                <hr />
+                <!--project start date-->
+                <div>
+                    <h2>Project start date</h2>
+                    <p>
+                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                    </p>
+                    <p>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                    </p>
+                    <!--table-->
+                    <div class="table-responsive">
+                        <table class="table text-center">
+                            <thead>
+                                <tr>
+                                    <th >January 2018</th>
+                                    <th>February 2018</th>
+                                    <th>March 2018</th>
+                                    <th>April 2018</th>
+                                    <th>May 2018</th>
+                                    <th>Jun 2018</th>
+                                    <th>July 2018</th>
+                                    <th>August 2018</th>
+                                    <th>Suptember 2018</th>
+                                    <th>Octomber 2018</th>
+                                    <th>November 2018</th>
+                                    <th>December 2018</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+
+                                </tr>
+                                <tr>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                    <td><span class="text-danger font-weight-bold">07</span><span class="table-Sunday">Sunday</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="container bg-info text-white p-3">
+                    <div class="form-heading pl-2">23 people are reserching this project</div>
+                    <form action="/action_page.php">
+                        <div class="form-group">
+                            <label for="email">Project start date</label>
+                            <input type="date" class="form-control start-date" name="date">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Duration</label>
+                            <select class="form-control">
+                                <option value="2">2 Weeks</option>
+                                <option value="3">3 Weeks</option>
+                                <option value="4">4 Weeks</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block bg-danger">Submit</button>
+                        <div class="text-white form-footer">Applying through Volunteer overseas gets you access to exclusive <a href="#" class="text-white">travel scholarships </a>and no fee <a href="#" class="text-white">fandraising platform</a></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html> 
